@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.big-wrapper {
+  width: 100%;
+  height: 350px;
+  background-image: url(./Images/dd.jpg);
+  border-top: 7px solid #5385c1;
+}
+
+.header {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  top: 45px;
+}
+
+.header p {
+  float: left;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.header ul {
+  float: right;
+}
+
+.header li {
+  float: left;
+  list-style: none;
+  margin-right: 30px;
+  color: white;
+}
+
+/* Banner starts */
+
+.banner {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  top: 90px;
+}
+
+.banner h1 {
+  text-align: center;
+  color: white;
+  font-weight: 200;
+  font-size: 40px;
+}
+
+.banner p {
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Three section start */
+
+.three-section {
+  width: 80%;
+  margin: 0 auto;
+  padding: 80px 0px;
+}
+
+.card {
+  width: 30%;
+  float: left;
+  height: 200px;
+  margin-right: 28px;
+}
+
+.card h2 {
+  font-weight: 900;
+  font: 20px;
+  color: #5385c1;
+  line-height: 30px;
+}
+
+.card p {
+  line-height: 20px;
+  font-weight: 600;
+  margin-top: 25px;
+  color: rgb(13, 12, 12);
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  background-color: #5385c1;
+  border: 0px;
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.add-border {
+  border-style: solid;
+  border-width: 0px 2px 0px 0px;
+  border-color: #dbdbdb;
+}
+
+/* Team start */
+
+.team {
+  width: 100%;
+  background-color: #5385c1;
+  color: white;
+}
+
+.employee {
+  width: 80%;
+  margin: 0 auto;
+  padding: 70px 0px;
+}
+
+.employee h1 {
+  font-weight: 200;
+  text-align: center;
+  font-size: 35px;
+}
+
+.employee .para {
+  font-weight: 400;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.person {
+  margin-top: 30px;
+  float: left;
+  width: 21%;
+  text-align: center;
+  border: 1px solid rgb(193, 184, 184);
+  padding: 25px 10px;
+  margin-right: 33px;
+}
+
+.person img {
+  border-radius: 100%;
+  width: 70%;
+}
+
+/* Two section start */
+
+.two-section {
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+  padding: 50px;
+}
+
+.two-section h1 {
+  color: #5385c1;
+  font-weight: 100;
+  font-size: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.two-section .p {
+  font-size: 15px;
+  color: grey;
+  text-align: center;
+}
+
+.two-section p {
+  color: rgb(15, 15, 15);
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.two-section .left {
+  width: 45%;
+  float: left;
+}
+
+.two-section .right {
+  width: 45%;
+  float: right;
+}
+
+.two-section img {
+  margin-top: 20px;
+  width: 100%;
+}
+
+/* footer start */
+
+.footer {
+  width: 80%;
+  margin: 0 auto;
+  height: 60px;
+  border-top: 2px solid lightgray;
+}
+
+.footer p {
+  margin-top: 5px;
+  float: left;
+}
+
+span i {
+  padding: 10px 0px;
+}
+
+.footer .icon {
+  float: right;
+}
